@@ -24,9 +24,9 @@ function App() {
           </a>
           <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
             <li><a className='dropdown-item' href='#'>VEG</a></li>
-            <li><a className='dropdown-item' href='#'>NON VEG</a></li>
+            <li><a className='dropdown-item' href='#'>NONVEG</a></li>
           
-            <li><a className='dropdown-item' href='#'>SEA FOOD</a></li>
+            <li><a className='dropdown-item' href='#'>SEAFOOD</a></li>
           </ul>
         </li>
         <li className='nav-item'>
