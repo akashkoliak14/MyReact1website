@@ -11,7 +11,7 @@ function App() {
     <header> 
      
       {header()}
-      {home()}
+       {home()}
     </header>
 </>
   );
