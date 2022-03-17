@@ -2,9 +2,9 @@ import './App.css';
 function header() {
     
     return (
-<div>
-<nav className='navbar navbar-expand-lg navbar-light bg-warning'>
-        <div className='container-fluid'>
+
+<nav className='navbar navbar-expand-lg navbar-light bg-warning '>
+        <div className='container-fluid w-100' >
           <a className='navbar-brand' href='#'>HOTEL</a>
           <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
             <span className='navbar-toggler-icon'></span>
@@ -31,6 +31,9 @@ function header() {
               <li className='nav-item'>
                 <a className='nav-link disabled'>ROOMS</a>
               </li>
+              <li className='nav-item'>
+                <a className='nav-link disabled'>CONTACT</a>
+              </li>
             </ul>
             <form className='d-flex'>
               <input className='form-control me-2' type='search' placeholder='Search' aria-label='Search'></input>
@@ -39,7 +42,7 @@ function header() {
           </div>
         </div>
       </nav>
-</div>
+
 
 );
 }
