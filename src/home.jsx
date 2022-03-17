@@ -1,8 +1,23 @@
+
 import './App.css';
-import 
+
+
 function home() {
+    
     return (
-<div>hellow i am home page</div>
+<div>
+ 
+    <img
+      className="d-block w-100"
+      src=".image\fernando-alvarez-rodriguez-M7GddPqJowg-unsplash.jpg"
+      alt="no image found"
+    />
+    
+    
+
+  
+   
+    </div>
 );
 }
 export default home;
