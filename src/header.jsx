@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 function header() {
     
@@ -12,20 +13,20 @@ function header() {
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
             <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
               <li className='nav-item'>
-                <a className='nav-link active' aria-current='page' href='#'>Home</a>
+                <a className='nav-link active' aria-current='page' >Home</a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'>ABOUT US</a>
+                <a className='nav-link'>ABOUT US</a>
               </li>
               <li className='nav-item dropdown'>
-                <a className='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded='false'>
+                <a className='nav-link dropdown-toggle'  id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded='false'>
                   FOOD CATEGORY
                 </a>
                 <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
-                  <li><a className='dropdown-item' href='#'>VEG</a></li>
-                  <li><a className='dropdown-item' href='#'>NONVEG</a></li>
+                  <li><a className='dropdown-item' >VEG</a></li>
+                  <li><a className='dropdown-item' >NONVEG</a></li>
                 
-                  <li><a className='dropdown-item' href='#'>SEAFOOD</a></li>
+                  <li><a className='dropdown-item' >SEAFOOD</a></li>
                 </ul>
               </li>
               <li className='nav-item'>
